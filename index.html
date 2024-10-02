@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 10px;
+            padding: 20px;
+            background-color: #f2eacf;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background: #a07e65;
+            color: #2f231d;
+            padding: 10px 40px;
+            text-align: center;
+        }
+        .country {
+    padding: 20px;
+    margin: 10px auto; /* Centre horizontalement la section */
+    margin-bottom: 30px; /* Ajoute un espace entre chaque section */
+    width: 90%; /* Ajuste la largeur à 80% de la page */
+    border-radius: 5px; /*zawaya mostadira*/
+}
+
+        .morocco {
+            background-color: rgb(220, 204, 156);
+            color: rgb(14, 7, 7);
+        }
+        .spain {
+            background-color: rgb(222, 207, 131);
+            color: rgb(32, 21, 21);
+        }
+        .egypt {
+            background-color: rgb(211, 213, 164);
+            color: black;
+        }
+        .italy {
+            background-color: rgb(197, 211, 228);
+            color: rgb(27, 14, 14);
+        }
+        .china {
+            background-color: rgb(241, 203, 156);
+            color: black;
+        }
+        div{ 
+            box-shadow: 0 4px 5px;
+
+        }
+        button{
+            padding: 10px 30PX;
+            background-color: green;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1 style="font-style: italic;">Historical Countries for Tourism</h1>
+    </header>
+
+    <div class="country morocco">
+        <h1 style="color: rgba(112, 52, 56, 0.546);">Morocco</h1>
+
+        <img src="imag/imag1.jpg" alt="good" width="250">
+        <p>Morocco is a country located in North-West Africa, known for its diverse geography and rich cultural heritage. It combines the Atlas Mountains, the vast Sahara Desert, and stunning coastlines along the Atlantic Ocean and the Mediterranean Sea. Cities like Marrakech and Fes are famous for their historical legacy, unique architecture, and vibrant traditional markets. Morocco is a crossroads of Arab, Berber, and Mediterranean cultures.</p>
+
+        <h2 style="color: rgb(163, 4, 15, 0.546);">Activities to do in Morocco</h2>
+        <ul>
+            <li>1. Casablanca
+                <ul>
+                    <li>Visit the Hassan II Mosque</li>
+                </ul>
+            </li>
+            <li>2. Marrakech
+                <ul>
+                    <li>Explore the souks of the Medina</li>
+                </ul>
+            </li>
+            <li>3. Fes
+                <ul>
+                    <li>Discover the ancient medina</li>
+                </ul>
+            </li>
+            <li>4. Agadir
+                <ul>
+                    <li>Relax on the beaches</li>
+                </ul>
+            </li>
+            <li>5. Chefchaouen
+                <ul>
+                    <li>Wander the blue streets</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2 style="color: rgb(163, 4, 15, 0.546);">Cities, Regions, Languages, and Traditions of Morocco</h2>
+        <table border="1">
+            <tr style="background-color:rgb(150, 122, 80);">
+                <th >City</th>
+                <th>Region</th>
+                <th>Languages</th>
+                <th>Traditions</th>
+            </tr>
+            <tr>
+                <td>Casablanca</td>
+                <td>Grand Casablanca</td>
+                <td>Arabic, French</td>
+                <td>Celebrating Mawlid (birth of the Prophet Muhammad)</td>
+            </tr>
+            <tr>
+                <td>Marrakech</td>
+                <td>Marrakech-Safi</td>
+                <td>Arabic, French, Berber</td>
+                <td>Traditional Moroccan weddings</td>
+            </tr>
+            <tr>
+                <td>Fes</td>
+                <td>Fes-Meknes</td>
+                <td>Arabic, French, Berber</td>
+                <td>Fez Festival of World Sacred Music</td>
+            </tr>
+            <tr>
+                <td>Agadir</td>
+                <td>Souss-Massa</td>
+                <td>Arabic, Berber, French</td>
+                <td>Surfing and beach culture</td>
+            </tr>
+            <tr>
+                <td>Chefchaouen</td>
+                <td>Tangier-Tétouan-Al Hoceima</td>
+                <td>Arabic, Berber, Spanish</td>
+                <td>Handicrafts and weaving traditions</td>
+            </tr>
+        </table>
+        <button onclick="setlike()"> like!</button>
+        <p id="like user"> 0 liks </p>
+    </div>
+
+    <div class="country spain">
+        <h1 style="color: rgb(163, 4, 15, 0.546);">Spain</h1>
+        <img src="imag/imag2.jpeg" alt="good" width="200">
+        <p>Spain is a diverse country in southwestern Europe known for its rich history and vibrant culture. Major cities like Madrid and Barcelona offer a mix of modern and traditional architecture. The country is famous for its cuisine, including tapas and paella, as well as lively festivals like La Tomatina. With beautiful Mediterranean beaches, the Pyrenees mountains, and historic cities such as Seville and Granada, Spain is a popular destination for travelers.</p>
+
+        <h2 style="color: rgb(163, 4, 15, 0.546);">Top Cities in Spain and One Activity</h2>
+        <ul>
+            <li>1. Madrid
+                <ul>
+                    <li>Visit the Prado Museum</li>
+                </ul>
+            </li>
+            <li>2. Barcelona
+                <ul>
+                    <li>Explore the Sagrada Família</li>
+                </ul>
+            </li>
+            <li>3. Seville
+                <ul>
+                    <li>Visit the Alcázar Palace</li>
+                </ul>
+            </li>
+            <li>4. Valencia
+                <ul>
+                    <li>Relax at the Turia Gardens</li>
+                </ul>
+            </li>
+            <li>5. Granada
+                <ul>
+                    <li>Explore the Alhambra</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2 style="color: rgb(163, 4, 15, 0.546);">Cities, Regions, Languages, and Traditions of Spain</h2>
+        <table border="1">
+            <tr style="background-color:rgb(150, 122, 80);">
+                <th>City</th>
+                <th>Region</th>
+                <th>Languages</th>
+                <th>Traditions</th>
+            </tr>
+            <tr>
+                <td>Madrid</td>
+                <td>Community of Madrid</td>
+                <td>Spanish</td>
+                <td>Fiesta de San Isidro (San Isidro Festival)</td>
+            </tr>
+            <tr>
+                <td>Barcelona</td>
+                <td>Catalonia</td>
+                <td>Spanish, Catalan</td>
+                <td>La Merce Festival</td>
+            </tr>
+            <tr>
+                <td>Seville</td>
+                <td>Andalusia</td>
+                <td>Spanish</td>
+                <td>Feria de Abril (April Fair)</td>
+            </tr>
+            <tr>
+                <td>Valencia</td>
+                <td>Valencia</td>
+                <td>Spanish, Valencian</td>
+                <td>Las Fallas Festival</td>
+            </tr>
+        </table>
+        <button onclick="setlike1()"> like!</button>
+        <p id="userlike"> 0 liks </p>
+       
+    </div>
+
+    <div class="country egypt">
+        <h1 style="color: rgb(163, 4, 15, 0.546);">Egypt</h1>
+        <img src="imag/imag3.jpg" alt="nice" width="250">
+        <p>Egypt is one of the oldest civilizations in the world and is a remarkable tourist destination. It features famous historical landmarks such as the Pyramids of Giza, which are considered one of the Seven Wonders of the Ancient World, and the Cairo Citadel. Additionally, the city of Luxor offers numerous temples and tombs from ancient Egypt, while the beaches of Sharm El Sheikh and Marsa Alam are ideal for diving and water sports enthusiasts. The country is also known for its rich cultural diversity and festive atmosphere, making it an attractive destination for tourists from around the globe.</p>
+        <h2 style="color: rgb(163, 4, 15, 0.546);">Top Cities in Egypt and One Activity</h2>
+        <ul>
+            <li>1. Cairo
+                <ul>
+                    <li>Visit the Pyramids of Giza</li>
+                </ul>
+            </li>
+            <li>2. Alexandria
+                <ul>
+                    <li>Explore the Alexandria Library</li>
+                </ul>
+            </li>
+            <li>3. Luxor
+                <ul>
+                    <li>Visit the Valley of the Kings</li>
+                </ul>
+            </li>
+            <li>4. Aswan
+                <ul>
+                    <li>Take a felucca ride on the Nile</li>
+                </ul>
+            </li>
+            <li>5. Sharm El Sheikh
+                <ul>
+                    <li>Snorkel in the Red Sea</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2 style="color: rgb(163, 4, 15, 0.546);">Cities, Regions, Languages, and Traditions of Egypt</h2>
+        <table border="1">
+            <tr style="background-color:rgb(150, 122, 80);">
+                <th>City</th>
+                <th>Region</th>
+                <th>Languages</th>
+                <th>Traditions</th>
+            </tr>
+            <tr>
+                <td>Cairo</td>
+                <td>Cairo Governorate</td>
+                <td>Arabic</td>
+                <td>Celebrating Ramadan and Eid al-Fitr</td>
+            </tr>
+            <tr>
+                <td>Alexandria</td>
+                <td>Alexandria Governorate</td>
+                <td>Arabic</td>
+                <td>Literary festivals and cultural events</td>
+            </tr>
+            <tr>
+                <td>Luxor</td>
+                <td>Luxor Governorate</td>
+                <td>Arabic</td>
+                <td>Valley of the Kings festivals</td>
+            </tr>
+        </table>
+        <button onclick="setlike2()"> like!</button>
+        <p id="useruser"> 0 liks </p>
+    </div>
+
+    <div class="country italy">
+        <h1 style="color: rgb(163, 4, 15, 0.546);">Italy</h1>
+        <img src="imag/imag4.jpg" alt="nice" width="250">
+        <p>Italy is a country in southern Europe known for its rich history, art, and cuisine. Cities like Rome, Florence, and Venice are famous for their cultural heritage, featuring landmarks such as the Colosseum, the Leaning Tower of Pisa, and St. Mark's Basilica. Italy is also renowned for its delicious cuisine, including pasta, pizza, and gelato. The country's diverse landscapes range from the rolling hills of Tuscany to the beautiful Amalfi Coast, making it a popular destination for travelers seeking both history and natural beauty.</p>
+
+        <h2 style="color: rgb(163, 4, 15, 0.546);">Top Cities in Italy and Activities</h2>
+        <ul>
+            <li>1. Rome
+                <ul>
+                    <li>Visit the Vatican City</li>
+                </ul>
+            </li>
+            <li>2. Florence
+                <ul>
+                    <li>Explore the Uffizi Gallery</li>
+                </ul>
+            </li>
+            <li>3. Venice
+                <ul>
+                    <li>Take a gondola ride on the Grand Canal</li>
+                </ul>
+            </li>
+            <li>4. Milan
+                <ul>
+                    <li>See the Duomo di Milano</li>
+                </ul>
+            </li>
+            <li>5. Naples
+                <ul>
+                    <li>Try authentic Neapolitan pizza</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2 style="color: rgb(163, 4, 15, 0.546);">Cities, Regions, Languages, and Traditions of Italy</h2>
+        <table border="1">
+            <tr style="background-color:rgb(150, 122, 80);">
+                <th>City</th>
+                <th>Region</th>
+                <th>Languages</th>
+                <th>Traditions</th>
+            </tr>
+            <tr>
+                <td>Rome</td>
+                <td>Lazio</td>
+                <td>Italian</td>
+                <td>La Befana (Epiphany)</td>
+            </tr>
+            <tr>
+                <td>Florence</td>
+                <td>Tuscany</td>
+                <td>Italian</td>
+                <td>Calcio Storico (Historic Football)</td>
+            </tr>
+            <tr>
+                <td>Venice</td>
+                <td>Veneto</td>
+                <td>Italian</td>
+                <td>Venice Carnival</td>
+            </tr>
+        </table>
+        <button onclick="setlike3()"> like!</button>
+        <p id="likelike"> 0 liks </p>
+    </div>
+
+    <div class="country china">
+        <h1 style="color: rgb(163, 4, 15, 0.546);">China</h1>
+        <img src="imag/imag5.jpg" alt="good" width="250">
+        <p>China is a vast country in East Asia known for its rich history, diverse culture, and stunning landscapes. From the Great Wall to the Terracotta Army, China offers numerous historical landmarks that showcase its ancient civilization. Major cities like Beijing, Shanghai, and Hong Kong blend modernity with tradition, featuring skyscrapers alongside historic temples. The country's cuisine is also diverse, with regional specialties ranging from spicy Sichuan dishes to dim sum in Guangdong. China is a must-visit destination for history buffs and food lovers alike.</p>
+
+        <h2 style="color: rgb(163, 4, 15, 0.546);">Top Cities in China and Activities</h2>
+        <ul>
+            <li>1. Beijing
+                <ul>
+                    <li>Visit the Forbidden City</li>
+                </ul>
+            </li>
+            <li>2. Shanghai
+                <ul>
+                    <li>Explore the Bund</li>
+                </ul>
+            </li>
+            <li>3. Hong Kong
+                <ul>
+                    <li>Visit Victoria Peak</li>
+                </ul>
+            </li>
+            <li>4. Xi'an
+                <ul>
+                    <li>See the Terracotta Army</li>
+                </ul>
+            </li>
+            <li>5. Chengdu
+                <ul>
+                    <li>Visit the Giant Panda Base</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2 style="color: rgb(163, 4, 15, 0.546);">Cities, Regions, Languages, and Traditions of China</h2>
+<table border="1">
+    <tr style="background-color:rgb(150, 122, 80);">
+        <th>City</th>
+        <th>Region</th>
+        <th>Languages</th>
+        <th>Traditions</th>
+    </tr>
+    <tr>
+        <td>Beijing</td>
+        <td>Beijing Municipality</td>
+        <td>Mandarin</td>
+        <td>Chinese New Year and Mid-Autumn Festival</td>
+    </tr>
+    <tr>
+        <td>Shanghai</td>
+        <td>Shanghai Municipality</td>
+        <td>Mandarin, Shanghainese</td>
+        <td>Lantern Festival</td>
+    </tr>
+    <tr>
+        <td>Xi'an</td>
+        <td>Shaanxi Province</td>
+        <td>Mandarin</td>
+        <td>Qinming Festival (Tomb-Sweeping Day)</td>
+    </tr>
+    <tr>
+        <td>Chengdu</td>
+        <td>Sichuan Province</td>
+        <td>Mandarin, Sichuanese</td>
+        <td>Dragon Boat Festival</td>
+    </tr>
+    <tr>
+        <td>Guilin</td>
+        <td>Guangxi Province</td>
+        <td>Mandarin, Cantonese</td>
+        <td>Water-Splashing Festival</td>
+    </tr>
+</table>
+<button onclick="setlike4()"> like!</button>
+<p id="likess"> 0 liks </p>
+    </div>
+    <script>
+   
+    let likesMaroc = document.getElementById("like user");
+    let likesMarocContent = likesMaroc.innerText;
+    console.log(likesMaroc)
+    console.log(likesMarocContent)
+
+    let click =parseInt(likesMarocContent)
+    function setlike(){
+        click++;
+        likesMaroc.innerText = click + "like";
+
+
+    }
+    let likesSpain = document.getElementById("userlike");
+    let likesSpainContent = likesSpain.innerText;
+    console.log(likesSpain)
+    console.log(likesSpainContent)
+
+    let click1 =parseInt(likesSpainContent)
+    function setlike1(){
+        click1++;
+        likesSpain.innerText = click1 + "like";
+        }
+    let likesEgpt = document.getElementById("useruser");
+    let likesEgptContent = likesEgpt.innerText;
+    console.log(likesEgpt)
+    console.log(likesEgptContent)
+
+    let click2 =parseInt(likesEgptContent)
+    function setlike2(){
+        click2++;
+        likesEgpt.innerText = click2 + "like";
+        }
+    let likesItaly = document.getElementById("likelike");
+    let likesITalyContent =  likesItaly.innerText;
+    console.log( likesItaly)
+    console.log(likesITalyContent)
+
+    let click3 =parseInt(likesITalyContent)
+    function setlike3(){
+        click3++;
+        likesItaly.innerText = click3 + "like";
+        }
+     let likeschina = document.getElementById("likess");
+    let likeschinaContent =  likeschina.innerText;
+    console.log( likeschina)
+    console.log( likeschinaContent)
+
+    let click4 =parseInt( likeschinaContent)
+    function setlike4(){
+        click4++;
+        likeschina.innerText = click4 + " like";
+        }
+    
+
+
+   
+
+    
+    </script>
+</body>
+</html>
